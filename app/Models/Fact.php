@@ -15,6 +15,4 @@ class Fact extends Model
         'attribute_id',
         'value',
     ];
-
-
 }
