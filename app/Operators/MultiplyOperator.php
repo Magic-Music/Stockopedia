@@ -8,6 +8,6 @@ class MultiplyOperator implements OperatorInterface
 {
     public function getResult(float $argumentA, float $argumentB): float
     {
-        return $argumentA * $argumentB;
+        return bcmul($argumentA, $argumentB);
     }
 }
