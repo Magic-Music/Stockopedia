@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('facts', function (Blueprint $table) {
             $table->id();
-            $table->integer('security_id');
-            $table->integer('attribute_id');
+            $table->bigInteger('security_id');
+            $table->bigInteger('attribute_id');
             $table->float('value');
             $table->timestamps();
         });
