@@ -2,7 +2,7 @@
 
 namespace App\Operators;
 
-use App\Interfaces\OperatorInterface;
+use App\Operators\OperatorInterface;
 
 class PlusOperator implements OperatorInterface
 {

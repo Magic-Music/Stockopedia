@@ -2,8 +2,8 @@
 
 namespace App\Repositories;
 
-use App\Interfaces\SecuritiesRepositoryInterface;
 use App\Models\Security;
+use App\Repositories\SecuritiesRepositoryInterface;
 
 class SecuritiesRepository implements SecuritiesRepositoryInterface
 {
