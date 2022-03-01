@@ -3,8 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Repositories\SecuritiesRepositoryInterface;
-use App\Repositories\SecuritiesRepository;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -25,6 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind(SecuritiesRepositoryInterface::class, SecuritiesRepository::class);
+
     }
 }
