@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Interfaces\SecuritiesRepositoryInterface;
+use App\Repositories\SecuritiesRepositoryInterface;
 use App\Repositories\SecuritiesRepository;
 
 class AppServiceProvider extends ServiceProvider

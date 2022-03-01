@@ -3,7 +3,7 @@
 namespace App\Services;
 
 use App\Exceptions\MalformedExpressionException;
-use App\Interfaces\SecuritiesRepositoryInterface;
+use App\Repositories\SecuritiesRepositoryInterface;
 use Illuminate\Support\Facades\App;
 
 class ExpressionEvaluationService
